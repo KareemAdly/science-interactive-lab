@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Science Virtual Lab</title>
+  <style>
+    body { font-family: sans-serif; text-align: center; padding: 40px; background: #f4f7f6; }
+    .card { background: white; padding: 25px; border-radius: 12px; max-width: 500px; margin: auto; box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+    button { background: #2b7a78; color: white; border: none; padding: 10px 20px; border-radius: 6px; cursor: pointer; font-size: 16px; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Cell Structure Virtual Lab</h1>
+    <p>Compare Plant and Animal Cells interactively.</p>
+    <button onclick="document.getElementById('info').innerText = 'Plant cells have a rigid cell wall and chloroplasts; animal cells do not.'">Compare Cells</button>
+    <p id="info" style="margin-top: 20px; font-weight: bold; color: #17252a;"></p>
+  </div>
+</body>
+</html>
